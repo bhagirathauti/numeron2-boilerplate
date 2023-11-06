@@ -54,7 +54,6 @@ randomise()
 // Iteration 6: Making the Operators (button) functional
 plus.onclick=()=>{
     if(n1+n2===n3){
-        console.log("plus")
         score++;
         randomise()
         resetTimer(timerId);
@@ -65,7 +64,6 @@ plus.onclick=()=>{
 }
 minus.onclick=()=>{
     if(n1-n2===n3){
-        console.log("minus")
         score++;
         randomise();
         resetTimer(timerId);
@@ -76,7 +74,6 @@ minus.onclick=()=>{
 }
 mul.onclick=()=>{
     if(n1*n2===n3){
-        console.log("mul")
         score++;
         randomise();
         resetTimer(timerId);
